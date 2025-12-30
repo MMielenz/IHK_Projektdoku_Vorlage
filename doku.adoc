@@ -1,6 +1,6 @@
 = Projektdokumentation IHK-Projektanträge
 :doctype: book
-:author: Michael
+:author: Author-Name
 :source-highlighter: rouge
 :rouge-style: github
 :lang: de
