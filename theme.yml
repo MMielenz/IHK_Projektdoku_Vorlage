@@ -1,0 +1,72 @@
+extends: default
+
+page:
+  size: A4
+  margin: [2.5cm, 2cm, 2.5cm, 2cm]
+  numbering:
+    start-at: title
+
+title-page:
+  background-color: #FFFFFF
+  logo:
+    image: image:./images/example_title_page.png[pdfwidth=500px,align=center]
+  title:
+    font-family: Helvetica
+    font-size: 28
+    align: left
+
+
+
+base:
+  font-family: Helvetica
+  font-size: 10
+  line-height: 1.5
+  font-color: 333333
+
+codespan:
+  background-color: f5f5f5
+  font-style: bold
+  font-family: Helvetica
+  font-color: 333333
+  border-offset: 2
+  border-radius: 2
+
+heading:
+  font-family: Helvetica
+  font-color: 003366
+  font-style: bold
+  # h1:
+  #   title_prefix: "asda"
+  #   font-size: 40
+  #   margin-top: 20
+  #   margin-bottom: 10
+  h2:
+    font-size: 22
+    break-before: avoid
+  h3:
+    break-before: avoid
+
+link:
+  font-family: Helvetica
+  font-color: 0066cc
+
+image:
+  caption:
+    align: inherit
+
+footer:
+  columns: =100%
+  recto:
+    center:
+      content: '{page-number}'
+  verso:
+    center:
+      content: '{page-number}'
+
+code:
+  font-family: Helvetica
+  font-size: 9
+  background-color: f5f5f5
+  border-radius: 1
+  padding: 6
+  

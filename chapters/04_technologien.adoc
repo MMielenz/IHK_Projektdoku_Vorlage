@@ -1,0 +1,8 @@
+== Technologien
+
+// generated example text
+Die Bereitstellung erfolgt über Docker-Container. Das Backend basiert auf einem Node.js-Server, der als Webservice dient. Für die Definition der API-Endpoints wird Express.js benutzt, während Sequelize als ORM zur Datenbankinteraktion mit einer MariaDb verwendet wird. Es werden in der Web-API noch viele weitere Funktionen benötigt, die mit NPM-Packages zur Verfügung gestellt werden. Beispiele hierfür wären `krb5` und `ldapts`, die zur Authentifizierung mit Kerberos und einem LDAP-Server benutzt werden oder `jsonwebtoken` und `express-jwt` zum Erstellen und Überprüfen der <<token, Tokens>>. Diese Funktionalitäten selbst zu schreiben würde viel Aufwand erfordern. Zudem erhalten die bestehenden Pakete weiterhin Support und werden kontinuierlich weiterentwickelt, wodurch sie eine höhere Sicherheit bieten, da viele Personen daran arbeiten.
+
+Das Frontend wurde mit Next.js und React entwickelt, wobei Material-UI als CSS-Framework zum Einsatz kommt. Next.js wird verwendet, da es ein einfaches, dateibasiertes Routing bietet. Material-UI überzeugt durch eine umfangreiche Sammlung an Komponenten und legt den Fokus auf modernes Design, genau das, was in dieser Anwendung erreicht werden soll. Zudem verfügen React, Next.js und Material-UI über sehr große Communities, wodurch eine kontinuierliche Weiterentwicklung und Unterstützung gewährleistet ist.
+
+Als Programmiersprache wird JavaScript verwendet, da dies nur für React möglich ist und das Backend ebefalls mit Node.js auch nur mit JavaScript oder Typescript läuft.

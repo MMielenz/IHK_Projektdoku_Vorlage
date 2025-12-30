@@ -1,0 +1,18 @@
+== Anhang
+
+=== Glossar
+
+|===
+
+| Begriff                           | Beschreibung                                                                      | Quellen, bzw. weitere Informationen
+| Kerberos                          | Ein Protokoll zum Authentifizieren                                                | https://web.mit.edu/kerberos/
+| LDAP                              | Ein Protokoll zur Kommunikation mit Verzeichnisdiensten wie Active Directory      | https://www.redhat.com/de/topics/security/what-is-ldap-authentication
+| JWT                               | JSON Web Token: Spezieller Token mit Signatur um die ID zu beweisen               | https://jwt.io/introduction
+| npm                               | Paket-Manager für JavaScript-Libaries                                             | https://www.npmjs.com/about
+| ORM                               | Object Relation Mapper: Datenbankzugriffe über Code; SQL nur im Hintergrund     | https://de.wikipedia.org/wiki/Objektrelationale_Abbildung
+| Base64                            | Codierung für Dateien                                                             | https://de.wikipedia.org/wiki/Base64
+|===
+
+=== Bilder
+
+// insert some more pictures
