@@ -16,7 +16,6 @@ title-page:
     align: left
 
 
-
 base:
   font-family: Helvetica
   font-size: 10
@@ -35,11 +34,6 @@ heading:
   font-family: Helvetica
   font-color: 003366
   font-style: bold
-  # h1:
-  #   title_prefix: "asda"
-  #   font-size: 40
-  #   margin-top: 20
-  #   margin-bottom: 10
   h2:
     font-size: 22
     break-before: avoid
