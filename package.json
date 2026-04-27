@@ -1,6 +1,6 @@
 {
    "scripts": {
-    "dev": "nodemon --watch doku.adoc --watch theme.yml --watch chapters --ext adoc,yml --exec \"asciidoctor-pdf -a pdf-theme=theme.yml -a pdf-themesdir=. doku.adoc\""
+    "dev": "nodemon --watch doku.adoc --watch theme.yml --watch chapters --ext adoc,yml --exec \"asciidoctor-pdf -r asciidoctor-lists -a pdf-theme=theme.yml -a pdf-themesdir=. doku.adoc\""
   },
   "dependencies": {
     "nodemon": "^3.1.11"

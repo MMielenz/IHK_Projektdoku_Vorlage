@@ -1,8 +1,8 @@
 == Projektanalyse
 
  
-[source,javascript]
-
+.Beispielcode
+[source,javascript,Linenums]
 ----
 // Javascript
 const test = 3

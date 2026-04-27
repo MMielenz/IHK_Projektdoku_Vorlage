@@ -1,3 +1,92 @@
 == Projektplanung
 
 lorem ipsum
+
+[%footer,cols="1,1"]
+.Geplante Stunden nach Projektphasen gegliedert
+|===
+a| [.big]
+Projektphase                              
+a| [.cent]
+Geplant in h  
+
+
+| *Einarbeitung und Planung*                  
+a| [.numb]
+*10*                  
+
+| *Wirtschaftlichkeitsbetrachtung*            
+a| [.numb]
+*2*
+
+| *Entwicklung Backend*       
+a| [.numb]
+*30*                     
+
+a| [.text-right]
+_docker-compose für DB und API_      
+a| [.numb]
+6                   
+
+a| [.text-right]
+_API Einstiegs-File ausprogrammieren_     
+a| [.numb]
+5                  
+
+a| [.text-right]
+_Datenbanktabellen definieren_        
+a| [.numb]
+4                    
+
+a| [.text-right]
+_Authentifizierungs-Routen_
+a| [.numb]
+5
+
+a| [.text-right] 
+_Endpoints für die Messdaten_          
+a| [.numb]
+10
+
+| *Entwicklung Frontend*       
+a| [.numb]
+*30*                     
+
+a| [.text-right]
+_Aufsetzen der App mit API-Anbindung_      
+a| [.numb]
+2                   
+
+a| [.text-right]
+_Seite für Registrierung/Login_        
+a| [.numb]
+8                  
+
+a| [.text-right]
+_Navigationsbar_     
+a| [.numb]
+5                  
+
+a| [.text-right]
+_Seite für Tankbelegerfassung_
+a| [.numb]
+5                    
+
+a| [.text-right] 
+_Seite mit den erfassten Tankbelegen_          
+a| [.numb]
+5                   
+
+a| [.text-right] 
+_Seite mit Autoerfassung_          
+a| [.numb]
+5                     
+
+| *Testen*                                    
+a| [.numb]
+*8*                     
+
+| *Gesamt*                                   
+a| [.numb]
+*80*                    
+|===

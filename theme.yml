@@ -4,23 +4,20 @@ page:
   size: A4
   margin: [2.5cm, 2cm, 2.5cm, 2cm]
   numbering:
-    start-at: title
+    start-at: 1
 
-title-page:
-  background-color: #FFFFFF
-  logo:
-    image: image:./images/example_title_page.png[pdfwidth=500px,align=center]
-  title:
-    font-family: Helvetica
-    font-size: 28
-    align: left
-
+running-content:
+  start-at: after-toc    
 
 base:
   font-family: Helvetica
-  font-size: 10
-  line-height: 1.5
+  font-size: 11
+  line-height: 1.35
   font-color: 333333
+  text-align: left
+
+list:
+  item-spacing: 2
 
 codespan:
   background-color: f5f5f5
@@ -52,10 +49,11 @@ footer:
   columns: =100%
   recto:
     center:
-      content: '{page-number}'
+      content: 'Seite {page-number} von {page-count}'
   verso:
     center:
-      content: '{page-number}'
+      content: 'Seite {page-number} von {page-count}'
+
 
 code:
   font-family: Helvetica
@@ -63,4 +61,33 @@ code:
   background-color: f5f5f5
   border-radius: 1
   padding: 6
+  caption:
+    end: bottom
+    align: center
   
+
+table:
+  align: center
+  caption:
+    align: center
+    end: bottom
+  cell:
+    padding: [2, 4]
+
+
+role:
+  cent:
+    text-align: center
+    font-style: bold
+    font-size: 11
+  big:
+    font-style: bold
+    font-size: 11
+  numb:
+    text-align: center
+  numbGood:
+    text-align: center
+    font-color: #1c7800
+  numbBad:
+    text-align: center
+    font-color: #c20202

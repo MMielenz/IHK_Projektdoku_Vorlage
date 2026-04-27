@@ -8,3 +8,50 @@ Bar!
 === Tokens
 
 Ich beschreibe gerne Tokens.
+
+
+=== Docker Compose
+
+.Auszug aus einer Dockerfile
+[source,dockerfile,Linenums]
+----
+FROM node:24
+WORKDIR /webservice
+COPY . /webservice
+RUN npm install
+RUN npm run swagger
+EXPOSE 3001
+CMD ["npm", "start"]
+----
+
+=== Frontend
+
+// If you have vertical images that you want to describe,
+// consider this trick to write text beside it
+==== Tankbelegerfassung
+[cols="3,7", frame=none, grid=none, valign=middle]
+|===
+a|
+.Screenshot Tankbelegerfassung
+image::./images/screenshot_tankbelegerfassung.jpeg[align=center]
+
+.^a|
+Für die Auswahl des Autos kommt eine Choice-Box zum Einsatz. In diesem Fall ist noch kein Fahrzeug hinterlegt worden. Das Datum hat den heutigen Tag als Standardwert. Dies kann über einen Datepicker aber geändert werden. Für die Eingabe der Kosten, der Menge und des Kilometerstandes erscheint eine Zahlentastatur. Zusätzlich werden hier länderspezifische Trennzeichen unterstützt.
+
+'''
+
+Weiterhin sieht man die Navigations-Leiste unten. Beim Öffnen der App wird immer automatisch auf diese Seite verwiesen, da die Erfassung dem User so einfach wie möglich gemacht werden soll.
+|===
+
+// You can use this trick however you like, for example for two similar images
+==== Snackbar
+[cols="1,1", frame=none, grid=none, valign=middle]
+|===
+a|
+.Screenshot Erfolg
+image::./images/screenshot_snackbar_success.jpg[align=center]
+
+a|
+.Screenshot keine Verbindung
+image::./images/screenshot_snackbar_noConnection.jpg[align=center]
+|===

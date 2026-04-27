@@ -71,3 +71,11 @@ To build and work with the documentation locally:
     - `theme.yml`
 
 ---
+
+## Further information, especially for IT students from Plattling
+
+If you are a student from the EDV-Schulen (Plattling), you can also use this template for the documentation in the training company. However, you should always ask your teacher if it’s okay to use AsciiDoc, as this may vary from teacher to teacher.
+
+This template contains everything I used for my documentation. I created some workarounds, as not everything is easy to configure in AsciiDoc (see the comments I added in the code).
+
+I would recommend creating the title page with an external tool like Google Docs, as it is not possible to configure the title page to include all the necessary information.

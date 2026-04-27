@@ -2,17 +2,59 @@
 
 === Glossar
 
+[cols="1,2"]
+|===
+a| [.big]
+Begriff
+a| [.big]
+Beschreibung
+
+
+| Jetpack Compose
+| UI-Framework für das erstellen einer Android-App
+
+| Splashscreen
+| Der Ladebildschirm bei Apps, der sich öffnet, wenn man die Anwendung startet.
+
+| LXC7
+| Linux-Container innerhalb der EDV-Schule, wo wiederum Container für Schüler zur Verfügung gestellt werden.
+
+| Messdaten
+| Steht für die Business-Daten, also die Tankbelege und die erfassten Fahrzeuge
+
+| DML
+a| **D**ata **M**anipulation **L**anguage ist ein Teil von SQL und umfasst z.B. Insert, Update, Delete und Select
+
 |===
 
-| Begriff                           | Beschreibung                                                                      | Quellen, bzw. weitere Informationen
-| Kerberos                          | Ein Protokoll zum Authentifizieren                                                | https://web.mit.edu/kerberos/
-| LDAP                              | Ein Protokoll zur Kommunikation mit Verzeichnisdiensten wie Active Directory      | https://www.redhat.com/de/topics/security/what-is-ldap-authentication
-| JWT                               | JSON Web Token: Spezieller Token mit Signatur um die ID zu beweisen               | https://jwt.io/introduction
-| npm                               | Paket-Manager für JavaScript-Libaries                                             | https://www.npmjs.com/about
-| ORM                               | Object Relation Mapper: Datenbankzugriffe über Code; SQL nur im Hintergrund     | https://de.wikipedia.org/wiki/Objektrelationale_Abbildung
-| Base64                            | Codierung für Dateien                                                             | https://de.wikipedia.org/wiki/Base64
-|===
+
+=== Abbildungsverzeichnis
+list-of::image[]
+
+=== Tabellenverzeichnis
+list-of::table[]
 
 === Bilder
 
-// insert some more pictures
+Add additional Pictures of your project
+
+// image::./images/logo.png[]
+// Icon der App
+
+// '''
+
+// image::./images/screenshot_swagger_all.png[]
+// Überblick über alle Endpoints
+
+// '''
+
+
+=== Quellen
+
+- https://developer.android.com/compose
+- https://developer.android.com/studio?hl=de
+- https://square.github.io/retrofit/
+- https://www.jwt.io/
+- https://kotlinlang.org/
+- https://expressjs.com/
+- https://sequelize.org/

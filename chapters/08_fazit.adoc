@@ -1,3 +1,171 @@
 == Fazit
 
-Das Projekt war super!
+=== Soll-Ist-Vergleich
+[%footer,cols="3,2,2,1"]
+.Soll-Ist-Vergleich zwischen geplanter und benötigter Zeit
+|===
+a| [.big]
+Projektphase                              
+a| [.cent]
+Geplant in h  
+a| [.cent]
+Benötigt in h
+a| [.cent]
+Differenz
+
+
+| *Einarbeitung und Planung*                  
+a| [.numb]
+*10*                  
+a| [.numb]
+*7*                   
+a| [.numbGood]
+*-3*
+
+| *Wirtschaftlichkeitsbetrachtung*            
+a| [.numb]
+*2*
+a| [.numb]
+*1*                    
+a| [.numbGood]
+*-1*
+
+
+| *Entwicklung Backend*       
+a| [.numb]
+*30*                     
+a| [.numb]
+*22*                     
+a| [.numbGood]
+*-8*
+
+a| [.text-right]
+_docker-compose für DB und API_      
+a| [.numb]
+6                   
+a| [.numb]
+6                   
+a| [.numb]
+0
+
+a| [.text-right]
+_API Einstiegs-File ausprogrammieren_     
+a| [.numb]
+5                  
+a| [.numb]
+2                     
+a| [.numbGood]
+-3
+
+a| [.text-right]
+_Datenbanktabellen definieren_        
+a| [.numb]
+4                    
+a| [.numb]
+4                   
+a| [.numb]
+0
+
+a| [.text-right]
+_Authentifizierungs-Routen_
+a| [.numb]
+5                    
+a| [.numb]
+4                    
+a| [.numbGood]
+-1
+
+a| [.text-right] 
+_Endpoints für die Messdaten_          
+a| [.numb]
+10                     
+a| [.numb]
+6                    
+a| [.numbGood]
+-4
+
+
+| *Entwicklung Frontend*       
+a| [.numb]
+*30*                     
+a| [.numb]
+*40*                     
+a| [.numbBad]
+*+10*
+
+a| [.text-right]
+_Aufsetzen der App mit API-Anbindung_      
+a| [.numb]
+2                   
+a| [.numb]
+5                   
+a| [.numbBad]
++3
+
+a| [.text-right]
+_Seite für Registrierung/Login_        
+a| [.numb]
+8                  
+a| [.numb]
+10                   
+a| [.numbBad]
++2
+
+a| [.text-right]
+_Navigationsbar_     
+a| [.numb]
+5                  
+a| [.numb]
+6                     
+a| [.numbBad]
++1
+
+a| [.text-right]
+_Seite für Tankbelegerfassung_
+a| [.numb]
+5                    
+a| [.numb]
+7                    
+a| [.numbBad]
++2
+
+a| [.text-right] 
+_Seite mit den erfassten Tankbelegen_          
+a| [.numb]
+5                   
+a| [.numb]
+6                    
+a| [.numbBad]
++1
+
+a| [.text-right] 
+_Seite mit Autoerfassung_          
+a| [.numb]
+5                     
+a| [.numb]
+6                    
+a| [.numbBad]
++1
+
+
+| *Testen*                                    
+a| [.numb]
+*8*                     
+a| [.numb]
+*10*
+a| [.numbBad]
+*+2*
+
+| *Gesamt*                                   
+a| [.numb]
+*80*                    
+a| [.numb]
+*80*
+a| [.numb]
+*0*
+|===
+
+Ich hab so und so lange für das und das gebraucht, weil...
+
+=== Persönliches Fazit
+Das war ein tolles Projekt und ich erkläre hier meine persönliche Meinung darüber.

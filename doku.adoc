@@ -1,19 +1,30 @@
 = Projektdokumentation IHK-Projektanträge
 :doctype: book
-:author: Author-Name
+:author: Author Name
+:notitle:
 :source-highlighter: rouge
 :rouge-style: github
 :lang: de
 :data-uri:
-:toc: left
-:toclevels: 3
+:toc: macro
+:toclevels: 4
 :toc-title: Inhaltsverzeichnis
 :sectnums:
 :sectnumlevels: 10
 :chapter-signifier:
 :docinfo: shared
 :linkcss:
-:figure-caption!:
+:figure-caption: Abbildung
+:table-caption: Tabelle
+
+// For the title site you can either write it in adoc or import a pdf
+// Its recommend to use a pdf, as its not possible to show all neccassary infos with asciidoc
+image::./images/title_page.pdf[]
+
+
+// Manually render the toc
+toc::[]
+<<<
 
 
 // IMPORTANT
@@ -38,5 +49,5 @@ include::chapters/07_testen.adoc[leveloffset=+1]
 include::chapters/08_fazit.adoc[leveloffset=+1]
 
 // This chapter doesnt count to the 15 required pages
-<<<<
+<<<
 include::chapters/09_anhang.adoc[leveloffset=+1]

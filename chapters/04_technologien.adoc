@@ -6,3 +6,19 @@ Die Bereitstellung erfolgt über Docker-Container. Das Backend basiert auf einem
 Das Frontend wurde mit Next.js und React entwickelt, wobei Material-UI als CSS-Framework zum Einsatz kommt. Next.js wird verwendet, da es ein einfaches, dateibasiertes Routing bietet. Material-UI überzeugt durch eine umfangreiche Sammlung an Komponenten und legt den Fokus auf modernes Design, genau das, was in dieser Anwendung erreicht werden soll. Zudem verfügen React, Next.js und Material-UI über sehr große Communities, wodurch eine kontinuierliche Weiterentwicklung und Unterstützung gewährleistet ist.
 
 Als Programmiersprache wird JavaScript verwendet, da dies nur für React möglich ist und das Backend ebefalls mit Node.js auch nur mit JavaScript oder Typescript läuft.
+
+=== Backend
+.Installierte Pakete auf dem Web-Service
+|===
+| express           | Web-Framework für z.B. APIs
+| https             | Paket für eine HTTPS-Verbindung
+| sequelize         | ORM für JavaScript
+| pg                | PostgreSQL-Client für Zugriff zur Datenbank
+| pg-hstore         | Paket zur Serialisierung und Deserialisierung von JSON zu hstore
+| jsonwebtoken      | Erstellung und Signierung von JWT
+| express-jwt       | Überprüfung von JWT
+| bcrypt            | Hashen von Passwörtern
+| nodemailer        | Versenden von E-Mails
+| swagger-autogen,
+  swagger-ui-express| Generieren und Anzeigen einer Swagger UI
+|===
