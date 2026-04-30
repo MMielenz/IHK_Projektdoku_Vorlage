@@ -31,7 +31,6 @@ toc::[]
 // The leveloffset is neccessary to avoid the forced page break!
 // The warnings can be ignored.
 
-
 include::chapters/01_einleitung.adoc[leveloffset=+1]
 
 include::chapters/02_projektanalyse.adoc[leveloffset=+1]

@@ -59,7 +59,13 @@ To build and work with the documentation locally:
     gem install rouge
     ```
 
-6. Start the development watcher, which automatically rebuilds the PDF on file changes:
+6. Install asciidoctor-lists for the lists of images and tables at the end:
+
+    ```bash
+    gem install asciidoctor-lists
+    ```
+
+7. Start the development watcher, which automatically rebuilds the PDF on file changes:
 
     ```bash
     npm run dev

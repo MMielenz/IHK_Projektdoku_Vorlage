@@ -1,0 +1,9 @@
+{
+  "watch": [
+    "doku.adoc",
+    "theme.yml",
+    "chapters"
+  ],
+  "ext": "adoc,yml",
+  "exec": "asciidoctor-pdf -q -r asciidoctor-lists -a pdf-theme=theme.yml -a pdf-themesdir=. doku.adoc && echo Successfully compiled"
+}
